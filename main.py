@@ -6,6 +6,6 @@ from funcions import searchTermek
 termek = input('Keresés: ')
 result = searchTermek(termek)
 if result == False:
-    print('Jelenleg nem elérhető ez a termék')
+    print('Nincs ilyen termák.')
 else:
-    print(f'A termék ára: {ar[result]}')
+    print(f'A termék ára: {ar[result]} Ft')
