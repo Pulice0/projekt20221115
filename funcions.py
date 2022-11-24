@@ -7,8 +7,3 @@ def searchTermek(needle):
         if needle == termek:
             return i
     return False
-
-
-
-
-
